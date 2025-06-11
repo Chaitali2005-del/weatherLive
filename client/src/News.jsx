@@ -9,17 +9,17 @@ const weatherCategories = [
       {
         time: "2 Hours Ago",
         headline: "One Of The Daily Rituals I Often Find Myself Doing",
-        imageUrl: "src/assets/Rectangle 38.png"
+        imageUrl: "/assets/Rectangle 38.png"
       },
       {
         time: "3 Hours Ago",
         headline: "Some Parts Of The State Saw Scant Relief, As Downtown",
-        imageUrl: "src/assets/Rectangle 39.png"
+        imageUrl: "/assets/Rectangle 39.png"
       },
       {
         time: "2 Hours Ago",
         headline: "Cold Weather Alert Issued As Temperatures Set To Plummet",
-        imageUrl: "src/assets/Rectangle 40.png"
+        imageUrl: "/assets/Rectangle 40.png"
       }
     ]
   },
@@ -29,17 +29,17 @@ const weatherCategories = [
       {
         time: "2 Hours Ago",
         headline: "One Of The Daily Rituals I Often Find Myself Doing",
-        imageUrl: "src/assets/Rectangle 45.png"
+        imageUrl: "/assets/Rectangle 45.png"
       },
       {
         time: "3 Hours Ago",
         headline: "Some Parts Of The State Saw Scant Relief, As Downtown",
-        imageUrl: "src/assets/Rectangle 48.png"
+        imageUrl: "/assets/Rectangle 48.png"
       },
       {
         time: "1 Hour Ago",
         headline: "Cold Weather Alert Issued As Temperatures Set To Plummet",
-        imageUrl: "src/assets/Rectangle 49.png"
+        imageUrl: "/assets/Rectangle 49.png"
       }
     ]
   },
@@ -49,17 +49,17 @@ const weatherCategories = [
       {
         time: "2 Hours Ago",
         headline: "One Of The Daily Rituals I Often Find Myself Doing",
-        imageUrl: "src/assets/Rectangle 51.png"
+        imageUrl: "/assets/Rectangle 51.png"
       },
       {
         time: "3 Hours Ago",
         headline: "Some Parts Of The State Saw Scant Relief, As Downtown",
-        imageUrl: "src/assets/Rectangle 54.png"
+        imageUrl: "/assets/Rectangle 54.png"
       },
       {
         time: "1 Hour Ago",
         headline: "Cold Weather Alert Issued As Temperatures Set To Plummet",
-        imageUrl: "src/assets/Rectangle 55.png"
+        imageUrl: "/assets/Rectangle 55.png"
       }
     ]
   }
