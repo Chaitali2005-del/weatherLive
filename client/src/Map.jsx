@@ -3,46 +3,46 @@ import './Map.css';
 import { Link } from 'react-router-dom';
 
 const countries = [
-  { name: 'India', image: '/src/assets/Group 105.svg' },
-  { name: 'Germany', image: '/src/assets/Group 107.svg' },
-  { name: 'Denmark', image: '/src/assets/Denmark.png' },
-  { name: 'France', image: '/src/assets/Group.svg' },
-  { name: 'Poland', image: '/src/assets/Group (1).svg' },
-  { name: 'Switzerland', image: '/src/assets/Group (2).svg' },
-  { name: 'Netherland', image: '/src/assets/Group 104.svg' },
-  { name: 'New York', image: '/src/assets/Group 108.svg' },
-  { name: 'London', image: '/src/assets/Group 106.svg' },
+  { name: 'India', image: '/assets/Group 105.svg' },
+  { name: 'Germany', image: '/assets/Group 107.svg' },
+  { name: 'Denmark', image: '/assets/Denmark.png' },
+  { name: 'France', image: '/assets/Group.svg' },
+  { name: 'Poland', image: '/assets/Group (1).svg' },
+  { name: 'Switzerland', image: '/assets/Group (2).svg' },
+  { name: 'Netherland', image: '/assets/Group 104.svg' },
+  { name: 'New York', image: '/assets/Group 108.svg' },
+  { name: 'London', image: '/assets/Group 106.svg' },
 ];
 
 const countries1 = [
-  { name: 'India', image: '/src/assets/Group 105.svg' },
-  { name: 'Germany', image: '/src/assets/Group 107.svg' },
-  { name: 'Denmark', image: '/src/assets/Denmark.png' },
-  { name: 'France', image: '/src/assets/Group.svg' },
-  { name: 'Poland', image: '/src/assets/Group (1).svg' },
-  { name: 'Switzerland', image: '/src/assets/Group (2).svg' },
-  { name: 'Netherland', image: '/src/assets/Group 104.svg' },
-  { name: 'New York', image: '/src/assets/Group 108.svg' },
-  { name: 'London', image: '/src/assets/Group 106.svg' },
+  { name: 'India', image: '/assets/Group 105.svg' },
+  { name: 'Germany', image: '/assets/Group 107.svg' },
+  { name: 'Denmark', image: '/assets/Denmark.png' },
+  { name: 'France', image: '/assets/Group.svg' },
+  { name: 'Poland', image: '/assets/Group (1).svg' },
+  { name: 'Switzerland', image: '/assets/Group (2).svg' },
+  { name: 'Netherland', image: '/assets/Group 104.svg' },
+  { name: 'New York', image: '/assets/Group 108.svg' },
+  { name: 'London', image: '/assets/Group 106.svg' },
 ];
 
 
 const countries2 = [
-  { name: 'India', image: '/src/assets/Group 105.svg' },
-  { name: 'Germany', image: '/src/assets/Group 107.svg' },
-  { name: 'Denmark', image: '/src/assets/Denmark.png' },
-  { name: 'France', image: '/src/assets/Group.svg' },
-  { name: 'Poland', image: '/src/assets/Group (1).svg' },
-  { name: 'Switzerland', image: '/src/assets/Group (2).svg' },
-  { name: 'Netherland', image: '/src/assets/Group 104.svg' },
-  { name: 'New York', image: '/src/assets/Group 108.svg' },
-  { name: 'London', image: '/src/assets/Group 106.svg' },
+  { name: 'India', image: '/assets/Group 105.svg' },
+  { name: 'Germany', image: '/assets/Group 107.svg' },
+  { name: 'Denmark', image: '/assets/Denmark.png' },
+  { name: 'France', image: '/assets/Group.svg' },
+  { name: 'Poland', image: '/assets/Group (1).svg' },
+  { name: 'Switzerland', image: '/assets/Group (2).svg' },
+  { name: 'Netherland', image: '/assets/Group 104.svg' },
+  { name: 'New York', image: '/assets/Group 108.svg' },
+  { name: 'London', image: '/assets/Group 106.svg' },
 ];
 
 const maps = [
-  { title: 'Temperature Map', img: 'src/assets/Rectangle 56.png' },
-  { title: 'Cloud Map', img: 'src/assets/Rectangle 57.png' },
-  { title: 'Wind Map', img: 'src/assets/Rectangle 58.png' },
+  { title: 'Temperature Map', img: '/assets/Rectangle 56.png' },
+  { title: 'Cloud Map', img: '/assets/Rectangle 57.png' },
+  { title: 'Wind Map', img: '/assets/Rectangle 58.png' },
 ];
 
 const Map = () => {
