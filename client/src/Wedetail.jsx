@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import sunriseImg from "/src/assets/sunr.png";
-import sunsetImg from "/src/assets/suns.png";
-import cloudRainImg from "/src/assets/vectw.png";
-import dropletsImg from "/src/assets/vecw.png";
+import sunriseImg from "/assets/sunr.png";
+import sunsetImg from "/assets/suns.png";
+import cloudRainImg from "/assets/vectw.png";
+import dropletsImg from "/assets/vecw.png";
 import { CloudSun, CloudRain, Cloud, CloudMoon } from "lucide-react";
 
 const API_KEY = "342f06e3f0da95740ac1916d3f8ad59e";
