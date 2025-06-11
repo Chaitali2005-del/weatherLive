@@ -28,7 +28,7 @@ const Contact = () => {
 
         <div className="form-content">
           <div className="contact-illustration">
-            <img src="src/assets/contactg.png" alt="Illustration" />
+            <img src="/assets/contactg.png" alt="Illustration" />
           </div>
           <form className="contact-form">
             <div className="input-row">
