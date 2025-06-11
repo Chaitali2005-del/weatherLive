@@ -1,9 +1,9 @@
 import React from "react";
 import "./Wea.css";
 
-import bgShape from "/assets/Rectangle.png";
-import card1 from "/assets/Grouup.png";
-import card2 from "/assets/Grou.png";
+import bgShape from "./assets/Rectangle.png";
+import card1 from "./assets/Grouup.png";
+import card2 from "./assets/Grou.png";
 
 const Wea = () => {
   return (
