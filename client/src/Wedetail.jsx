@@ -51,12 +51,12 @@ export default function WeaDetail() {
   return (
     <div
       className="relative bg-cover bg-center min-h-screen px-4 py-10 text-white mt-20"
-      style={{ backgroundImage: "url('/src/assets/bgg.png')" }}
+      style={{ backgroundImage: "url('/assets/bgg.png')" }}
     >
       <div className="max-w-7xl mx-auto space-y-8 mt-10">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">Today's Weather Details</h2>
-          <p className="text-sm mt-2 text-gray-200">
+          <p className="text-sm mt-2 text-gray-500">
             Live weather update for {CITY}.
           </p>
         </div>
