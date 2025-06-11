@@ -4,17 +4,17 @@ const newsData = [
   {
     date: "19th Jan, 2022",
     title: "One Of The Daily Rituals I Often Find Myself Doing",
-    image: "/src/assets/img1.png",
+    image: "/assets/img1.png",
   },
   {
     date: "19th Jan, 2022",
     title: "Some Parts Of The State Saw Scant Relief, As Downtown",
-    image: "/src/assets/img2.png",
+    image: "/assets/img2.png",
   },
   {
     date: "19th Jan, 2022",
     title: "Cold Weather Alert Issued As Temperatures Set To Plummet",
-    image: "/src/assets/img3.png",
+    image: "/assets/img3.png",
   },
 ];
 
