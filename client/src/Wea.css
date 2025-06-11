@@ -1,0 +1,78 @@
+/* 1. Base layout: one column */
+.wea-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+
+}
+
+/* 2. Switch to two-column at md breakpoint */
+@media (min-width: 768px) {
+  .wea-container {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .wea-left  { grid-column: 1 / span 6; }
+  .wea-right { grid-column: 7 / span 6; }
+}
+
+/* LEFT SIDE: blob + two cards */
+.wea-left {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* blob background */
+.wea-bg {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin-top: 50px;
+}
+
+/* the cards share this base */
+.wea-card {
+  position: absolute;
+  width: 70%;
+  max-width: 300px;
+  object-fit: cover;
+
+  border-radius: 1rem;
+}
+
+/* top card: ~upper right */
+.wea-card--top {
+  top: 15%;
+  left:55%;
+  transform: translate(-30%, -25%);
+}
+
+/* bottom card: ~lower left */
+.wea-card--bottom {
+  top: 90%;
+  left: 45%;
+  transform: translate(-70%, -65%);
+}
+
+/* RIGHT SIDE: typography */
+.wea-title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.wea-title span {
+  color: #0057ff;
+}
+
+.wea-text {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: justify;
+}

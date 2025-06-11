@@ -1,0 +1,142 @@
+.news{
+    background-image: url('/src/assets/Rectangle 43.png');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+  padding: 2.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111827;
+  text-align: center;
+}
+
+.news h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: 100px;
+}
+
+@media (max-width: 1024px) {
+.news {
+    padding: 2rem 4rem;
+    min-height: 250px;
+  }
+ 
+}
+
+@media (max-width: 640px) {
+.news{
+    padding: 1.5rem 1.5rem;
+    min-height: 180px;
+  }
+ 
+}
+@media (max-width: 1200px) {
+.news h1 {
+    margin-right: 0; /* Remove big right margin on smaller desktops */
+  }
+}
+
+@media (max-width: 768px) {
+ .news h1 {
+    margin-right: 0;
+    font-size: 2rem; /* Smaller font on tablets */
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .news h1 {
+    margin-right: 0;
+    font-size: 1.5rem; /* Even smaller font on phones */
+    padding: 0 0.25rem;
+  }
+}
+/* Heading styling */
+
+
+.news h1{
+  font-size: 40px;
+}
+
+.news-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.news-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.article-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article-card {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #dcdee6;
+}
+
+.article-image {
+  width: 280px;
+  height: 191px;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* object-fit: cover; */
+}
+
+.article-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.article-time {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.article-headline {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.read-link {
+  color: #007BFF;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.read-link:hover {
+  text-decoration: underline;
+}

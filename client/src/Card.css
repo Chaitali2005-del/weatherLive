@@ -1,0 +1,22 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Change grid from 3 columns to 2 columns for tablet */
+  .grid.grid-cols-1.md\:grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Make left section take only 1 column */
+  .md\:col-span-2 {
+    grid-column: span 1 / span 1 !important;
+  }
+
+  /* Remove the large left margin on the left section container */
+  .md\:ml-60 {
+    margin-left: 0 !important;
+  }
+
+  /* Center the right section on tablet */
+  .md\:ml-0 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

@@ -1,0 +1,65 @@
+.climate{
+    background-image: url('/src/assets/Rectangle43.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+  padding: 2.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111827;
+  text-align: center;
+}
+
+.climate h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: 900px;
+}
+
+@media (max-width: 1024px) {
+ .climate {
+    padding: 2rem 4rem;
+    min-height: 250px;
+  }
+ 
+}
+
+@media (max-width: 640px) {
+ .climate{
+    padding: 1.5rem 1.5rem;
+    min-height: 180px;
+  }
+ 
+}
+@media (max-width: 1200px) {
+.climate h1 {
+    margin-right: 0; /* Remove big right margin on smaller desktops */
+  }
+}
+
+@media (max-width: 768px) {
+ .climate h1 {
+    margin-right: 0;
+    font-size: 2rem; /* Smaller font on tablets */
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .climateh1 {
+    margin-right: 0;
+    font-size: 1.5rem; /* Even smaller font on phones */
+    padding: 0 0.25rem;
+  }
+}
+/* Heading styling */
+
