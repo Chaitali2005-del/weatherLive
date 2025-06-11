@@ -10,7 +10,7 @@ const Header = () => {
       {/* Logo Section */}
       <div className="flex items-center justify-between w-full md:w-auto mb-4 md:mb-0 px-6 md:px-28">
         <img
-          src="src/assets/Groupp.png"
+          src="/assets/Groupp.png"
           alt="Weathercoach Logo"
           className="w-48 h-auto"
         />
