@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 // Local weather icons (replace with correct paths)
-import sunCloud from "/src/assets/suncloud.png";
-import rainThunder from "/src/assets/thunder.png";
-import moonCloud from "/src/assets/moon.png";
-import cloudRainImg from "/src/assets/Vector.png";
-import dropletsImg from "/src/assets/Vect.png";
+import sunCloud from "/assets/suncloud.png";
+import rainThunder from "/assets/thunder.png";
+import moonCloud from "/assets/moon.png";
+import cloudRainImg from "/assets/Vector.png";
+import dropletsImg from "/assets/Vect.png";
 
 const getIconByDescription = (desc) => {
   const lower = desc.toLowerCase();
