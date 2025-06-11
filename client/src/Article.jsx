@@ -1,16 +1,16 @@
 import React from "react";
 
 const trendingNews = [
-  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/src/assets/img.png" },
-  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/src/assets/imgg.png" },
-  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/src/assets/imggg.png" },
-  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/src/assets/img5.png" },
+  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/assets/img.png" },
+  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/assets/imgg.png" },
+  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/assets/imggg.png" },
+  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/assets/img5.png" },
 ];
 
 const liveNews = [
-  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/src/assets/img6.png" },
-  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/src/assets/img7.png" },
-  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/src/assets/img8.png" },
+  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/assets/img6.png" },
+  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/assets/img7.png" },
+  { title: "Sorem Ipsum Dolor Sit Amet Ipsum, Consectetur", image: "/assets/img8.png" },
 ];
 
 export default function Article() {
